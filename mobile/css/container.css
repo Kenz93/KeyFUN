@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 100%;
+    padding: 13px;
+    flex: 1;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    gap: 1em;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.inform {
+    flex: 1;
+}
+
+.parent {
+    background-color: #f6f6f6;
+    cursor: grab;
+    height: 100%;
+    width: 100%;
+    padding: 13px;
+    display: flex;
+    flex: 5;
+    gap: 1em;
+    border-radius: 10px;
+    overflow-x: auto;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.parent {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.parent::-webkit-scrollbar {
+    display: none;
+}
+
+.parent:active {
+    cursor: grabbing;
+}
+
+.box1 {
+    flex: 0.5;
+}
+
+.box2 .box {
+    min-width: 245px;
+}
+
+.box {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+    min-width: 115px;
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.box:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.box2 .identify {
+    min-width: 230px;
+    flex-direction: row;
+    padding: 5px;
+    gap: 1em;
+}
+
+.box2 .identify img {
+    height: 100px;
+    width: 100px;
+}
+
+.identify {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.identify img {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.parent a {
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #eeeeee;
+    border: 1px solid #eeeeee;
+    background-color: #161a2d;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.parent a:hover {
+    height: 32px;
+    width: 75px;
+    font-size: large;
+    background-color: #ffffff;
+    border: 1px solid;
+    color: #161a2d;
+}
