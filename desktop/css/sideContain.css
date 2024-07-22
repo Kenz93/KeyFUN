@@ -1,0 +1,18 @@
+.sideContent {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 10px;
+    background-image: url('../assets/backgroundAside.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideText {
+    text-align: center;
+    margin-top: 100px;
+}
