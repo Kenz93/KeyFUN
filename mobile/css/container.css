@@ -54,6 +54,10 @@
     flex: 0.5;
 }
 
+.box1 .parent {
+    align-items: center;
+}
+
 .box2 .box {
     min-width: 245px;
 }
