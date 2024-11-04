@@ -120,10 +120,10 @@ h6 {
 
 @media screen and (min-width: 361px) {
   .box {
-    min-width: 130px;
+    min-width: 135px;
   }
 
   .identify {
-    min-width: 115px;
+    min-width: 120px;
   }
 }
