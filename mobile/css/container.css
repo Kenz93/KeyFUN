@@ -135,3 +135,17 @@ h5 {
     border: 1px solid;
     color: #161a2d;
 }
+
+@media screen and (min-width: 361px) {
+  .box2 .box {
+    min-width: 295px;
+  }
+
+  .box3 .box {
+    min-width: 140px;
+  }
+
+  .identify {
+    min-width: 125px;
+  }
+}
