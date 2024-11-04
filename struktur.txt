@@ -1,0 +1,55 @@
+├───NPROJECT
+│   ├───assets
+│   │   ├───css
+│   │   │   └───image
+│   │   ├───desktop
+│   │   │   ├───aplikasi
+│   │   │   │   ├───css
+│   │   │   │   └───js
+│   │   │   ├───berita
+│   │   │   │   └───css
+│   │   │   ├───donasi
+│   │   │   │   └───css
+│   │   │   ├───game
+│   │   │   │   ├───2024game
+│   │   │   │   ├───candyCrush
+│   │   │   │   ├───connectFour
+│   │   │   │   ├───crossyRoad
+│   │   │   │   ├───memoryCard
+│   │   │   │   │   └───images
+│   │   │   │   ├───snake
+│   │   │   │   └───tictactoe
+│   │   │   └───musik
+│   │   │       ├───css
+│   │   │       └───js
+│   │   ├───image
+│   │   │   └───game
+│   │   ├───js
+│   │   └───mobile
+│   │       ├───aplikasi
+│   │       │   ├───css
+│   │       │   └───js
+│   │       ├───berita
+│   │       │   └───css
+│   │       ├───donasi
+│   │       │   └───css
+│   │       ├───game
+│   │       │   ├───2024game
+│   │       │   ├───candyCrush
+│   │       │   ├───connectFour
+│   │       │   ├───crossyRoad
+│   │       │   ├───memoryCard
+│   │       │   │   └───images
+│   │       │   ├───snake
+│   │       │   └───tictactoe
+│   │       └───musik
+│   │           └───css
+│   ├───css
+│   ├───desktop
+│   │   ├───assets
+│   │   ├───css
+│   │   └───js
+│   └───mobile
+│       ├───assets
+│       ├───css
+│       └───js
