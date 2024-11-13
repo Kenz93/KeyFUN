@@ -1,27 +1,77 @@
 main {
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .container {
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    background-color: #eeeeee;
-    border-radius: 5px;
-    color: black;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+  cursor: grab;
+  overflow-y: scroll;
+  height: 97vh;
+  width: 95%;
+  border-radius: 12px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
-.container:hover {
-    background-color: black;
-    height: 50px;
-    width: 110px;
-    color: #eeeeee;
+.container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container:active {
+  cursor: grabbing;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 900px;
+  width: 100%;
+  gap: 10px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.child {
+  display: flex;
+  flex: 1;
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.child img {
+  border: 2px solid;
+  flex: 1;
+}
+
+.child p {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.child2 {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  border: 2px solid;
+}
